@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    height: 1600px;
+}
+
+
+
+
+.top {
+    height: 500px;
+    background-image: url("image\ 1\ \(4\).png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+    height: 1024px;
+}
+
+.menu {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 45px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.menu p {
+    color: white;
+    font-size: 20px;
+}
+
+.right {
+    margin-left: auto;
+    font-size: 17px;
+    border: none;
+    background-color:#159bd7;
+    color: white;
+}
+
+.play {
+    display: flex;
+    gap: 10px;
+    background-color: #159bd7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px white;
+
+}
+
+.play a{
+color: white;
+padding: 10px;
+
+}
+
+
+
+.title {
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+
+
+.title h1 {
+    display: inline-block;
+    background-color: #ffd000;
+    color: #111;
+    border: 5px solid gray;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 22px;
+    width: 400px;
+    text-shadow: 3px 3px 3px blue;
+}
+
+.players {
+    width: 90%;
+    margin: 55px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    background-color: #111;
+    border: 3px solid #555;
+    box-shadow: 0 5px 10px #777;
+}
+
+.photo {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    display: block;
+}
+
+.name {
+    text-shadow: 3px 3px 3px gold;
+    height: 35px;
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.information {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+    height: 1024px;
+}
+
+.information h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+    text-shadow: 3px 3px 3px white;
+
+}
+
+
+
+
+
+
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.news-photo {
+    width: 48%;
+    height: 360px;
+    object-fit: cover;
+}
+
+.text {
+    width: 48%;
+    height: 300px;
+}
+
+.text p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
+
+.read {
+    margin-top: 15px;
+    background-color: #ffd000;
+    color: black;
+    border: none;
+    padding: 10px 35px;
+    font-weight: bold;
+}
+
+.read:hover {
+    box-shadow: 3px 3px 3px white;
+    background-color: grey;
+}
+
+.read a{
+    color: #111;
+}
+
+
+
+.footer {
+    height: 160px;
+    background-color: #ffd000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+
+
+
+.footer-left {
+    font-size: 20px;
+}
+
+
+
+
+.social {
+
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+}
